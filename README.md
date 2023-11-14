@@ -42,12 +42,13 @@ its a game of snake, water, gun developed in python where opponent is computer w
 #### winiing declaration
 The program compares the user's and computer's choices and determines the winner of the round based on the game's rules:
 
-Snake beats Water (Snake wins).
-Water beats Gun (Water wins).
-Gun beats Snake (Gun wins).
-If both the user and the computer make the same choice, it's a tie.
-The outcome of the round is displayed (e.g., "You win!" or "Computer wins!").
+*  Snake beats Water (Snake wins).
+*  Water beats Gun (Water wins).
+*  Gun beats Snake (Gun wins).
+*  If both the user and the computer make the same choice, it's a tie.
+  
+* * The outcome of the round is displayed (e.g., "You win!" or "Computer wins!"). * *
 
-The user is asked if they want to play another round. If they choose "yes," the game continues; otherwise, it exits.
+The user is asked if they want to play another round. If they choose ** "yes" ** the game continues; otherwise, it exits.
 
 The game continues until the user decides not to play anymore. It provides a fun and interactive way to make choices and determine the winner based on the rules of the game.
