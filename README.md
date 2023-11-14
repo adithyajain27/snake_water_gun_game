@@ -27,10 +27,10 @@ its a game of snake, water, gun developed in python where opponent is computer w
     The main function acts as the game's controller.
     It provides a welcome message and initiates a loop that allows the user to play multiple rounds.
     Inside the loop:
-    It calls get_user_choice to get the user's choice.
-    It calls get_computer_choice to get the computer's choice.
+    It calls _get_user_choice_ to get the user's choice.
+    It calls _get_computer_choice_ to get the computer's choice.
     It displays the choices made by both the user and the computer.
-    It calls determine_winner to decide the winner and prints the result.
+    It calls _determine_winner_ to decide the winner and prints the result.
     It asks the user if they want to play again and continues the game or exits the loop accordingly.
     
 ### Execution (if __name__ == "__main__":):
@@ -46,9 +46,10 @@ The program compares the user's and computer's choices and determines the winner
 *  Water beats Gun (Water wins).
 *  Gun beats Snake (Gun wins).
 *  If both the user and the computer make the same choice, it's a tie.
-  
-* * The outcome of the round is displayed (e.g., "You win!" or "Computer wins!"). * *
 
-The user is asked if they want to play another round. If they choose ** "yes" ** the game continues; otherwise, it exits.
+
+   _the outcome of the round is displayed (e.g., "You win!" or "Computer wins!")._
+
+The user is asked if they want to play another round. If they choose **"yes"** the game continues; otherwise, it exits.
 
 The game continues until the user decides not to play anymore. It provides a fun and interactive way to make choices and determine the winner based on the rules of the game.
